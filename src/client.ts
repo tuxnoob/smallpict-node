@@ -126,6 +126,7 @@ export class SmallPictClient {
         quality: options?.quality ?? 80,
         max_width: options?.maxWidth,
         max_height: options?.maxHeight,
+        max_dimension: options?.maxDimension,
         fit: options?.fit || 'cover',
         lossless: options?.lossless ?? false,
         strip_metadata: options?.stripMetadata ?? true,

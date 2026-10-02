@@ -94,6 +94,11 @@ export interface OptimizeOptions {
   maxHeight?: number;
 
   /**
+   * Maximum bounding dimension constraint (longest edge) in pixels.
+   */
+  maxDimension?: number;
+
+  /**
    * Resizing fit behavior.
    */
   fit?: FitMode;
